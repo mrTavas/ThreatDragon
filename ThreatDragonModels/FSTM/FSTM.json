@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "owner": "mrTavas",
+    "description": "Firmware Security Testing Methodology",
+    "title": "FSTM"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Diagram1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Komarov"
+  }
+}
