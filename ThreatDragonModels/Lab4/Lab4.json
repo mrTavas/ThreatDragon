@@ -183,12 +183,22 @@
               "id": "061e64f9-eefb-4270-99c8-3d57bc3e940b",
               "z": 8,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "title": "Эксплуатация уязвимости может позволить нарушителю, действующему удаленно, получить доступ к конфиденциальным данным, нарушить их целостность, а также вызвать отказ в обслуживании",
+                  "type": "Information disclosure",
+                  "description": "CWE-20: Improper Input Validation. Когда программное обеспечение не проверяет ввод правильно, злоумышленник может обработать ввод в форме, которая не ожидается остальной частью приложения.",
+                  "mitigation": "Способ выявления: Динамический анализ с автоматизированной интерпретацией результатов. Фаззинг.\nМеры по устранению: Обновление программного обеспечения."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Сервер аутент\nификации"
+                  "text": "Сервер аутент\nификации\n(Ubuntu 14.04\nLTS )"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -225,6 +235,22 @@
                   "type": "Denial of service",
                   "description": "CWE-400: Uncontrolled Resource Consumption. Программное обеспечение не контролирует должным образом распределение и обслуживание ограниченного ресурса, что позволяет субъекту влиять на количество потребляемых ресурсов.",
                   "mitigation": "Методы выявления: Автоматический динамический анализ. Фаззинг.\nМеры по устранению: Для Ubuntu использование рекомендаций: https://usn.ubuntu.com/3877-1/"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Эксплуатация уязвимости может позволить нарушителю, действующему удаленно, получить доступ к конфиденциальным данным, нарушить их целостность, а также вызвать отказ в обслуживании",
+                  "type": "Information disclosure",
+                  "description": "CWE-20: Improper Input Validation. Когда программное обеспечение не проверяет ввод правильно, злоумышленник может обработать ввод в форме, которая не ожидается остальной частью приложения.",
+                  "mitigation": "Способ выявления: Динамический анализ с автоматизированной интерпретацией результатов. Фаззинг.\nМеры по устранению: Обновление программного обеспечения."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Эксплуатация уязвимости может позволить нарушителю, действующему удаленно, вызвать отказ в обслуживании и получить несанкционированный доступ к конфиденциальным данным.",
+                  "type": "Information disclosure",
+                  "description": "CWE-787: Out-of-bounds Write. Программное обеспечение записывает данные после конца или до начала предполагаемого буфера.",
+                  "mitigation": "Методы выявления:  Автоматический динамический анализ.\nМеры по устранению: Использование рекомендаций: (Для Ubuntu:) https://usn.ubuntu.com/3877-1/"
                 }
               ],
               "attrs": {
@@ -414,13 +440,23 @@
                 }
               ],
               "z": 15,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -583,13 +619,23 @@
                 }
               ],
               "z": 19,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -622,13 +668,23 @@
                 }
               ],
               "z": 20,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -661,13 +717,23 @@
                 }
               ],
               "z": 21,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -700,17 +766,26 @@
                 }
               ],
               "z": 22,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "outOfScope": false,
               "isEncrypted": true,
               "isPublicNetwork": true,
-              "threats": [],
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -977,13 +1052,23 @@
                 }
               ],
               "z": 31,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -1016,13 +1101,23 @@
                 }
               ],
               "z": 32,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
