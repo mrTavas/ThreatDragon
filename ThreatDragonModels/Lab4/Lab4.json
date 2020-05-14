@@ -208,17 +208,34 @@
               "angle": 0,
               "id": "a6818860-6fd9-4807-a458-3537b0be81e0",
               "z": 9,
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "CWE-787: Out-of-bounds Write. Программное обеспечение записывает данные после конца или до начала предполагаемого буфера.",
+                  "title": "Эксплуатация уязвимости может позволить нарушителю, действующему удаленно, вызвать отказ в обслуживании и получить несанкционированный доступ к конфиденциальным данным.",
+                  "mitigation": "Автоматический статический анализ\nАвтоматический динамический анализ"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Эксплуатация уязвимости может позволить нарушителю, действующему удалённо, вызвать отказ в обслуживании.",
+                  "type": "Denial of service",
+                  "description": "CWE-400: Uncontrolled Resource Consumption. Программное обеспечение не контролирует должным образом распределение и обслуживание ограниченного ресурса, что позволяет субъекту влиять на количество потребляемых ресурсов.",
+                  "mitigation": "Автоматический динамический анализ. Фаззинг."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "WEB Сервер"
+                  "text": "WEB Сервер\n(Ubuntu\n14.04.6 LTS)"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -855,8 +872,8 @@
               },
               "vertices": [
                 {
-                  "x": 394,
-                  "y": 350
+                  "x": 402,
+                  "y": 379
                 }
               ],
               "id": "0c8272fc-499f-4f89-9bfe-c372e659bcb0",
