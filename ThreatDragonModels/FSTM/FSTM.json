@@ -1043,59 +1043,6 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 69,
-                "y": 20
-              },
-              "target": {
-                "x": 121,
-                "y": 461
-              },
-              "vertices": [
-                {
-                  "x": 96,
-                  "y": 233
-                }
-              ],
-              "id": "3d9cd821-9116-4b2f-bbeb-38ccc72e414d",
-              "z": 35,
-              "attrs": {}
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 69,
-                "y": 20
-              },
-              "target": {
-                "x": 1005,
-                "y": 18
-              },
-              "vertices": [],
-              "id": "5a61093d-9c40-4ef5-8c13-228224c1e00f",
-              "z": 36,
-              "attrs": {}
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 1010,
-                "y": 19
-              },
-              "target": {
-                "x": 1010,
-                "y": 363
-              },
-              "vertices": [],
-              "id": "9893e22b-4e04-4e42-bee5-67c171e3e274",
-              "z": 37,
-              "attrs": {}
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
                 "x": 1006,
                 "y": 355
               },
