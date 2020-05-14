@@ -202,13 +202,14 @@
                 "height": 100
               },
               "position": {
-                "x": 645,
-                "y": 564
+                "x": 632,
+                "y": 562
               },
               "angle": 0,
               "id": "a6818860-6fd9-4807-a458-3537b0be81e0",
               "z": 9,
               "hasOpenThreats": false,
+              "threats": [],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -655,8 +656,8 @@
               },
               "vertices": [
                 {
-                  "x": 855,
-                  "y": 411
+                  "x": 838,
+                  "y": 433
                 }
               ],
               "id": "306da799-8664-44cb-9d38-a7736158180c",
@@ -674,6 +675,10 @@
               ],
               "z": 22,
               "hasOpenThreats": false,
+              "outOfScope": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "threats": [],
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1037,39 +1042,6 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 513,
-                "y": 514
-              },
-              "target": {
-                "x": 514,
-                "y": 515
-              },
-              "vertices": [
-                {
-                  "x": 540,
-                  "y": 694
-                },
-                {
-                  "x": 823,
-                  "y": 708
-                },
-                {
-                  "x": 830,
-                  "y": 509
-                },
-                {
-                  "x": 641,
-                  "y": 463
-                }
-              ],
-              "id": "5730ac32-7c47-470a-9e3e-a7697b2ac23b",
-              "z": 34,
-              "attrs": {}
             },
             {
               "type": "tm.Boundary",
